@@ -1,8 +1,9 @@
+import Form from "../components/Forms";
 function Login() {
     // You MUST return the JSX
     return (
         <>
-            <div>Login</div>
+            <Form route='/api/token/' method='login'/>
         </>
     );
 }

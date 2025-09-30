@@ -1,8 +1,11 @@
+import Form from "../components/Forms";
+
+
 function Register() {
     // You MUST return the JSX
     return (
         <>
-            <div>Register</div>
+            <Form route='/api/user/register/' method='register'/>
         </>
     );
 }
